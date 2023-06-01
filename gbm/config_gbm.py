@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+
+# Hyper Parameters
+MAX_EPOCH = 70
+BATCH_SIZE = 64
+USE_GPU = False
+CLASS_NUM = 2
+LABEL_SIZE = 0.5
+VALIDATION_SIZE = 0.4
+ITERATIONS = 5
+MAX_ITERATION_PER_SEED = 2
+VIEW1_SIZE = 3000
+VIEW2_SIZE = 1840
+SAVE_MODEL_MAME = str(LABEL_SIZE)
